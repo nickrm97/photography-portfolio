@@ -1,21 +1,25 @@
+const urlPath = "./pics/";
+
+export const getURL = url => {
+  return urlPath + url;
+};
+
 const images = [
   {
-    themes: ["iceland"],
-    caption: "Northern lights over Westfjords",
-    url: "lights.jpg"
+    location: "Westfjords, Iceland",
+    caption: "",
+    url: getURL("lights.jpg")
   },
   {
-    themes: ["iceland"],
-    caption: "Looking up, black sand",
-    url: "blacksand.jpg"
+    location: "Westfjords, Iceland",
+    caption: "",
+    url: getURL("blacksand.jpg")
   },
   {
-    themes: ["amsterdam"],
-    caption: "Canal",
-    url: "canal.jpg"
+    location: "Canal",
+    caption: "",
+    url: getURL("lights.jpg")
   }
 ];
-
-export const urlPath = "./pics/";
 
 export default images;

@@ -1,24 +1,26 @@
 import React from "react";
-import { urlPath } from "./mockImages";
 
 interface Props {
-  caption: String;
-  url: String;
+  caption: string;
+  location: string;
+  url: string;
 }
 
 export default class Image extends React.Component<Props, {}> {
   render() {
-    const { caption, url } = this.props;
+    const { caption, location, url } = this.props;
 
     return (
-      <div>
-        <div className="picture-parent">
-          <div className="picture">
-            <img src={urlPath + url} />
+      <>
+        <div className="photo-container">
+          <div className="photo">
+            <img src={url} alt={caption} />
           </div>
         </div>
-        <div className="picture-caption">{caption || "Untitled"}</div>
-      </div>
+        <div className="picture-caption">
+          {caption} {location}
+        </div>
+      </>
     );
   }
 }

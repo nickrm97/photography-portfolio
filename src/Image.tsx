@@ -17,9 +17,6 @@ export default class Image extends React.Component<Props, {}> {
             <img src={url} alt={caption} />
           </div>
         </div>
-        <div className="picture-caption">
-          {caption} {location}
-        </div>
       </>
     );
   }

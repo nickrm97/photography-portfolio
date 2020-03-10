@@ -4,7 +4,7 @@ import Image from "./Image";
 import Welcome from "./Welcome";
 
 interface AppState {
-  currentImageIndex: number;
+  showWelcome: boolean;
 }
 
 interface ImageType {
@@ -15,36 +15,26 @@ interface ImageType {
 
 class App extends Component<{}, AppState> {
   state = {
-    currentImageIndex: 0
-  };
-
-  fetchNextImage = () => {
-    const { currentImageIndex } = this.state;
-    console.log(currentImageIndex);
-
-    // Grab next element, or first element if we're at the end
-    const nextIndex =
-      currentImageIndex === images.length - 1 ? 0 : currentImageIndex + 1;
-
-    this.setState({ currentImageIndex: nextIndex });
+    showWelcome: false
   };
 
   render() {
-    const { currentImageIndex } = this.state;
-    if (currentImageIndex === -1) {
+    if (this.state.showWelcome) {
       return <Welcome />;
     }
 
-    const currentImage = images[this.state.currentImageIndex];
     return (
       <>
-        <button onClick={this.fetchNextImage}>Next image</button>
-        <Image
-          location={currentImage.location}
-          caption={currentImage.caption}
-          url={currentImage.url}
-          key={currentImage.url}
-        />
+        <div className="container">
+          {images.map(image => (
+            <Image
+              location={image.location}
+              caption={image.caption}
+              url={image.url}
+              key={image.url}
+            />
+          ))}
+        </div>
       </>
     );
   }

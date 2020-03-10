@@ -13,9 +13,8 @@ export default class Image extends React.Component<Props, {}> {
     return (
       <>
         <div className="photo-container">
-          <div className="photo">
-            <img src={url} alt={caption} />
-          </div>
+          <img className="image" src={url} alt={caption} />
+          {caption} {caption && location ? "-" : null} {location}
         </div>
       </>
     );

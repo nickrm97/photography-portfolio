@@ -10,16 +10,14 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-.photo-container {
+.container {
+  margin: 0 40px;
   display: flex;
+  flex-direction: column;
   justify-content: center;
 }
 
-.photo {
-  padding: 20px 0 20px 0;
-}
-
-.picture-caption {
-  display: flex;
-  justify-content: space-between;
+.image {
+  width: 80vw;
+  height: auto;
 }

@@ -7,39 +7,69 @@ export const getURL = url => {
 
 const images = [
   {
-    location: "Westfjords, Iceland",
+    location: "Vesturbyggð, Iceland",
+    caption: "",
+    url: getURL("iceland/barn.JPG")
+  },
+  {
+    location: "Vesturbyggð, Iceland",
+    caption: "",
+    url: getURL("iceland/house.JPG")
+  },
+  {
+    location: "Vesturbyggð, Iceland",
     caption: "",
     url: getURL("iceland/mountain.JPG")
   },
   {
     location: "Westfjords, Iceland",
     caption: "",
-    url: getURL("barn.JPG")
+    url: getURL("iceland/north1.JPG")
   },
   {
     location: "Westfjords, Iceland",
     caption: "",
-    url: getURL("house.JPG")
+    url: getURL("iceland/north2.JPG")
   },
   {
     location: "Westfjords, Iceland",
     caption: "",
-    url: getURL("north1.JPG")
+    url: getURL("iceland/north3.JPG")
   },
   {
     location: "Westfjords, Iceland",
     caption: "",
-    url: getURL("north2.JPG")
+    url: getURL("iceland/north4.JPG")
   },
   {
     location: "Westfjords, Iceland",
     caption: "",
-    url: getURL("north3.JPG")
+    url: getURL("iceland/lake.JPG")
   },
   {
     location: "Westfjords, Iceland",
     caption: "",
-    url: getURL("north4.JPG")
+    url: getURL("iceland/gradient.JPG")
+  },
+  {
+    location: "Westfjords, Iceland",
+    caption: "",
+    url: getURL("iceland/lake2.JPG")
+  },
+  {
+    location: "Westfjords, Iceland",
+    caption: "",
+    url: getURL("iceland/lake3.JPG")
+  },
+  {
+    location: "Westfjords, Iceland",
+    caption: "",
+    url: getURL("iceland/winding.JPG")
+  },
+  {
+    location: "Westfjords, Iceland",
+    caption: "",
+    url: getURL("iceland/window.JPG")
   }
 ];
 

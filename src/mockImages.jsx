@@ -12,7 +12,7 @@ const images = [
   },
   {
     location: "Westfjords, Iceland",
-    caption: "",
+    caption: "Test",
     url: getURL("blacksand.jpg")
   },
   {

@@ -3,7 +3,7 @@ import { icelandImages, usaImages } from "./images";
 export const themes = [
   {
     id: "iceland",
-    title: "Eastern Iceland, Northern Lights",
+    title: "Westfjords, Iceland",
     description:
       "Bright green skies, abandoned houses and mirror-like lakes. A collection of photos taken out the car window, lying in the snow and in remote villages. All photos taken during an impromptu roadtrip to the Westfjords, a region in the east of Iceland.",
     colours: ["#eeeef0", "#cfdfe9", "#c59748", "#1eb186", "#1b1b1b"],

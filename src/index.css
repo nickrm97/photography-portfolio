@@ -19,6 +19,36 @@ body {
   justify-content: center;
 }
 
+/* THEMES */
+.theme-container {
+  height: 100vh;
+}
+
+.theme-text {
+  margin-top: 30vh;
+}
+
+.theme-title {
+  font-size: 5vw;
+  font-weight: 500;
+  margin: 10px 0;
+}
+
+.theme-description {
+  font-size: 1.8vw;
+  margin: 20px 0;
+}
+
+.colours {
+  display: flex;
+}
+
+.colour {
+  width: 20%;
+  height: 20px;
+}
+
+/* IMAGES */
 .photo-container {
   margin: 20px 0;
 }

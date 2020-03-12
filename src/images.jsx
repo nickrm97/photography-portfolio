@@ -5,7 +5,7 @@ export const getURL = url => {
   return urlPath + url;
 };
 
-const images = [
+export const icelandImages = [
   {
     location: "Vesturbyggð, Iceland",
     caption: "",
@@ -73,4 +73,21 @@ const images = [
   }
 ];
 
-export default images;
+export const usaImages = [
+  { location: "East Bridgewater, MA", caption: "", url: getURL("usa/moo.JPG") },
+  {
+    location: "East Bridgewater, MA",
+    caption: "",
+    url: getURL("usa/meow.JPG")
+  },
+  { location: "Boston, MA", caption: "", url: getURL("usa/queens.JPG") },
+  { location: "Brooklyn, NY", caption: "", url: getURL("usa/brooklyn.JPG") },
+  { location: "Havana, Cuba", caption: "", url: getURL("usa/chair.JPG") },
+  { location: "Havana, Cuba", caption: "", url: getURL("usa/cuba.JPG") },
+  { location: "San Francisco, CA", caption: "", url: getURL("usa/bridge.JPG") },
+  { location: "San Francisco, CA", caption: "", url: getURL("usa/forest.JPG") },
+  { location: "Los Angeles, CA", caption: "", url: getURL("usa/la.JPG") },
+
+  { location: "Los Angeles, CA", caption: "", url: getURL("usa/outside.JPG") },
+  { location: "Los Angeles, CA", caption: "", url: getURL("usa/window.JPG") }
+];

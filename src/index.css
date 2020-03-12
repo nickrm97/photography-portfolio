@@ -13,29 +13,54 @@ body {
 }
 
 .container {
-  margin: 5px 8%;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
-/* THEMES */
+/* mobile screens */
+@media only screen and (max-width: 767px) {
+  .container {
+    margin: 5px 4%;
+  }
+  .theme-title {
+    font-size: 15vw;
+  }
+  .theme-description {
+    font-size: 5vw;
+    padding-top: 20px;
+  }
+  .theme-text {
+    margin-top: 20vh;
+  }
+}
+
+/* computer screens */
+@media only screen and (min-width: 768px) {
+  .container {
+    margin: 5px 8%;
+  }
+  .theme-title {
+    font-size: 5vw;
+  }
+  .theme-description {
+    font-size: 1.8vw;
+  }
+  .theme-text {
+    margin-top: 30vh;
+  }
+}
+
 .theme-container {
   height: 100vh;
 }
 
-.theme-text {
-  margin-top: 30vh;
-}
-
 .theme-title {
-  font-size: 5vw;
   font-weight: 500;
   margin: 10px 0;
 }
 
 .theme-description {
-  font-size: 1.8vw;
   margin: 20px 0;
 }
 

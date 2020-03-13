@@ -91,3 +91,46 @@ export const usaImages = [
   { location: "Los Angeles, CA", caption: "", url: getURL("usa/outside.JPG") },
   { location: "Los Angeles, CA", caption: "", url: getURL("usa/window.JPG") }
 ];
+
+export const japanImages = [
+  {
+    location: "Shinjuku",
+    caption: "",
+    url: getURL("japan/lights.JPG")
+  },
+  {
+    location: "Hanshin",
+    caption: "",
+    url: getURL("japan/baseball.JPG")
+  },
+  {
+    location: "Travelling through Tokyo",
+    caption: "",
+    url: getURL("japan/train2.JPG")
+  },
+  {
+    location: "Shibuya",
+    caption: "",
+    url: getURL("japan/sushi.JPG")
+  },
+  {
+    location: "Shinjuku",
+    caption: "",
+    url: getURL("japan/police.JPG")
+  },
+  {
+    location: "Travelling through Tokyo",
+    caption: "",
+    url: getURL("japan/insidetrain.JPG")
+  },
+  {
+    location: "Shinjuku",
+    caption: "",
+    url: getURL("japan/yodo.JPG")
+  },
+  {
+    location: "Tokyo Station",
+    caption: "",
+    url: getURL("japan/train.JPG")
+  }
+];

@@ -5,7 +5,7 @@ export const themes = [
     id: "iceland",
     title: "Westfjords, Iceland",
     description:
-      "Bright green skies, abandoned houses and mirror-like lakes. A collection of photos taken out the car window, lying in the snow and in remote villages. Memories from an impromptu roadtrip to the Westfjords, a region in the east of Iceland.",
+      "Bright green skies, abandoned houses and mirror-like lakes. A collection of photos taken out the car window, lying in the snow and in remote villages. Memories from an impromptu roadtrip to the Westfjords, a region in the west of Iceland.",
     colours: ["#eeeef0", "#cfdfe9", "#c59748", "#1eb186", "#1b1b1b"],
     images: icelandImages
   },

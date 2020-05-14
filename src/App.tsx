@@ -13,6 +13,7 @@ interface ThemeType {
   description: string;
   colours: string[];
   images: ImageType[];
+  videos: ImageType[];
 }
 
 class App extends Component {
@@ -28,6 +29,7 @@ class App extends Component {
               description={theme.description}
               colours={theme.colours}
               images={theme.images}
+              videos={theme.videos}
             />
           ))}
         </div>
